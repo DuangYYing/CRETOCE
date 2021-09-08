@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Robot</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!---<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>--->
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body class="home-page">   
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header navbar-fixed-top">  
+        <div class="container">
+          <h1 class="logo"> <a href="index.jsp"><span class="text">CRETOCE</span></a></h1>
+          <!--//logo-->
+            <nav class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item"><a href="index.jsp">Home</a></li>
+                        <li class="active nav-item"><a href="./ProductServlet">PRODUCTS</a></li>
+                        <li class="active nav-item"><a href="aboutus.html">ABOUT US</a></li>
+						<li class="active nav-item"><a href="contact.jsp">CONTACT US</a></li>
+						<li class="active nav-item"><a href="./ShowCartServlet?username=<%=username%>">CART</a></li>
+                   	  	<li class="active nav-item"><a href="login.jsp">Login</a></li>
+						<li class="active nav-item"><a href="register.jsp">REGISTER</a></li>
+                        
+						
+                  </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->                     
+        </div><!--//container-->
+    </header><!--//header-->
+    
+
+    
+    <div class="sections-wrapper">   
+     
+        <!-- ******Why Section****** -->
+        <section id="why" class="section why">
+            <div class="container">
+                <h2 class="title text-center">How Can Our Robot Help You?</h2>
+                <div class="row item">
+                    <div class="content col-xs-12 col-md-4">
+                        <h3 class="title">Exploring the unknown area</h3>
+                        <div class="desc">
+                            <p>Explorers can control the car remotely via Bluetooth, and monitor the status of the car in real time, collecting the luminosity, temperature and humidity data of the environment around the car, so as to realize the remote monitoring function of the harsh environment .Thus the explorer can arrange the adventure more reasonably and safely.</p>
+                        </div>
+                                               
+                    </div><!--//content-->
+                    <figure class="figure col-md-offset-1 col-sm-offset-0 col-xs-offset-0 col-xs-12 col-md-7">
+                        <img class="img-responsive" src="images/figures/figure-1.png" alt="" />
+                        
+                    </figure>
+                </div><!--//item-->
+                
+                <div class="row item">
+                    <div class="content col-md-push-8 col-sm-push-0 col-xs-push-0 col-xs-12 col-md-4">
+                        <h3 class="title">Follow your footsteps</h3>
+                        <div class="desc">
+                            <p>The outdoor adventure Z1 car will automatically follow the explorer and feedback the environmental data around the explorer to the explorer's mobile phone in real time. Therefore, explorers can carry it easily and save space.</p>
+                        </div>
+                        
+                                             
+                    </div><!--//content-->
+                    <figure class="figure col-md-pull-4 col-sm-pull-0 col-xs-pull-0 col-xs-12 col-md-7">
+                        <img class="img-responsive" src="images/figures/figure-2.png" alt="" />
+                        <div class="control text-center">
+                            <button type="button" class="play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></button>                    
+                        </div><!--//control-->
+                    </figure>
+                </div><!--//item-->
+                
+                <div class="row item ">
+                    <div class="content col-xs-12 col-md-4">
+                        <h3 class="title">Perfect obstacle avoidance</h3>
+                        <div class="desc">
+                            <p>Outdoor adventures may encounter harsh environments. The car can be safely protected by infrared obstacle avoidance. The explorer does not need to worry about the safety of the car. Therefore, the outdoor adventure Z1 car can replace the explorer to the unknown area to collect data such as environment and image.</p>
+                            
+                        </div>
+                                                
+                    </div><!--//content-->
+                    <figure class="figure col-md-offset-1 col-sm-offset-0 col-xs-offset-0 col-xs-12 col-md-7">
+                        <img class="img-responsive" src="images/figures/figure-3.png" alt="" />
+                       
+
+                    </figure>
+                </div><!--//item-->
+            </div><!--//container-->
+        </section><!--//why--> 
+        
+    </div><!--//section-wrapper-->
+    <!-- Video Modal -->
+    <div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="videoModalLabel" class="modal-title sr-only">Video Tour</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="video-container">
+                        <iframe id="vimeo-video" src="mmm.mp4" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div><!--//video-container-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="plugins/flexslider/jquery.flexslider-min.js"></script>     
+    <script type="text/javascript" src="js/main2.js"></script>
+    
+    <!-- Vimeo video API -->
+    <script src="js/froogaloop2.min.js"></script>
+    <script type="text/javascript" src="js/vimeo.js"></script> 
+    
+            
+</body>
+</html> 
+
+
